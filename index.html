@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>SUMO</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="" class="logo">
+                    <img src="images/logo-dark.svg" alt="Logo">
+                </a>
+                <button class="button button-small header-menu-bar js-menu-bar">Menu</button>
+            </div>
+           
+        </div>
+    </header>
+
+    <div class="menu-dropdown">
+        <div class="container">
+            <div class="menu-dropdown-head">
+                <a class="button button-color-white" href="/">Home</a>
+
+                <button class="button button-icon button-icon-white js-search-toggle">
+                    <span class="icon icon-search"></span>
+                </button>
+
+                <button class="button button-icon button-icon-white menu-dropdown-close js-menu-close">
+                    <span class="icon icon icon-close"></span>
+                </button>
+            </div>
+          
+
+            <div class="search">
+                <label for="site-search">Search SUMO</label>
+                <input type="search" id="site-search" name="q" placeholder="Write what you are looking for...">
+        
+                <button class="button button-color-white button-large button-fill">
+                    <span class="title">Find</span>
+                    <div class="icon-wrapper">
+                        <span class="icon icon-arrow-white"></span>
+                    </div>
+                </button>
+            </div>
+
+            <div class="menu-list js-menu-list">
+                <ul>
+                    <li>            
+                        <a href="#">What is SUMO</a>
+                    </li>
+                    <li>
+                        <a href="#">How it works</a>
+                        <ul>
+                            <li>
+                                <a href="#">For bussines</a>
+                            </li>
+                            <li>
+                                <a href="#">For patient</a>
+                            </li>
+                            <li>
+                                <a href="#">For doctor</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Industries</a>
+                        <ul>
+                            <li>
+                                <a href="">Insurance</a>
+                            </li>
+                            <li>
+                                <a href="">Hospitals</a>
+                            </li>
+                            <li>
+                                <a href="">Manufactures</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <nav class="social social-border">
+                <ul>
+                    <li>
+                        <a href="#" aria-label="Facebook">
+                            <span class="icon-facebook"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Instagram">
+                            <span class="icon-instagram"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="LinkedIn">
+                            <span class="icon-linkedin"></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+                   
+           
+        </div>
+        
+    </div>
+
+    <!--
+    <div class="hero">
+        <div class="sphere-wrapper">
+            <div class="sphere"></div>
+            <div class="sphere"></div>
+        </div>
+     
+
+        <div class="container">
+            <h1 class="hero__title">A healthcare innovator</h1>
+            <div class="hero__subtitle">
+                Data science and technology
+            </div>
+            <p class="hero__text">
+                SUMO is an application software designed to fill in the gaps in patient care and operations by saving time and influencing better decisions for each unique patient. 
+            </p>
+        </div>        
+    </div>
+-->
+    
+    <main class="main">
+
+        <!-- Home Section -->
+        <section class='home-section' style="background-image: url(images/home-bg.jpg);">
+            <div class='home-wrap'>
+                <div class='container-inner'>
+                    <div class='home'>
+                        <div class="home-modal">
+                            <div class="home-modal__title">
+                                ABOUT SUMO Labs 
+                            </div>
+                            <div class="home-modal-info">
+                                <div class="home-modal__icon">
+                                    <img src="images/play-border.svg" alt="Play">
+                                </div>
+                                <div class="home-modal__time">
+                                    1:30
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <div class="content-row">
+                                <div class="content-column">
+                                    <div class="content-block">
+                                        <div class="content-block__text">
+                                            Big data analytics for healthcare industry
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-column">
+                                    <div class="content-block">
+                                        <div class="content-block__text">
+                                            SUMO is a gamechanger when it comes to connecting patient care and the unlimited amount of data that hospitals, clinics, and other medical facilities have accumulated over the years. 
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-column">
+                                    <div class="content-block">
+                                        <div class="content-block__text">
+                                            Now the way that data is accessed and interpreted through SUMO will create a more efficient environment throughout the healthcare system. With the limitations of healthcare staff especially since the pandemic, SUMO can help them handle patient care better and increase the probability of proper diagnoses. 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-down">
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Section -->
+        <section class='case-section'>
+            <div class='case-wrap'>
+                <div class='container'>
+                    <div class="section-title">
+                        <div class="section-title__main">
+                            Eliminating the barriers
+                        </div>
+                        <div class="section-title__subtitle">
+                            In patient and health professional relationships
+                        </div>
+                    </div>
+
+                    <div class='case'>
+                        <div class="case-row">
+
+                            <div class="case-circle case-circle-first">
+                                <div class="case-circle__title">
+                                    Patient
+                                </div>
+                                <img class="arrow-сircle arrow-сircle-first" src="images/arrow-circle.svg" alt="">
+
+                                <div class="sphere-wrapper sphere-center">
+                                    <div class="sphere sphere-color-purple"></div>
+                                    <div class="sphere sphere-color-purple"></div>
+                                </div> 
+
+                            </div>
+
+                            <div class="case-column">
+                                <img src="images/logo-light.svg" alt="Logo">
+                            </div>
+
+                            <div class="case-circle case-circle-second">
+                                <div class="case-circle__title">
+                                    Clinic
+                                </div>
+                                <img class="arrow-сircle arrow-сircle-second" src="images/arrow-circle.svg" alt="">
+
+                                <div class="sphere-wrapper sphere-center">
+                                    <div class="sphere sphere-color-blue"></div>
+                                    <div class="sphere sphere-color-blue"></div>
+                                </div>
+
+                            </div>
+
+                        </div>    
+                        
+                        <div class="case-content">
+                            <div class="case-content__title">
+                                T³ Platform — precise big data analytics
+                            </div>
+
+                            <div class="case-content-row">
+                                <div class="case-content-column">
+                                    The T³ data science platform creates connections between patients and clinicians in a way that diminishes previous barriers and difficulties in service. With specialisation in musculoskeletal healthcare, SUMO can be a field leader in healthcare data analytics.
+                                </div>
+                                <div class="case-content-column">
+                                    Our platform is designed to exceed the expectations of the specific industry and business of its users. Gain back time and eliminate the stress of time-consuming administrative functions. Get precise analytics on patient trends, payment trends, and various datasets. Obtain necessary patient information while remaining within HIPAA guidelines to improve proactive diagnoses.
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="case-content-button-wrapper">
+                            <button class="button button-color-dark button-fill">
+                                <span class="title">Read more</span>
+                                <div class="icon-wrapper">
+                                    <span class="icon icon-arrow"></span>
+                                </div>
+                            </button>
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="content">
+                        <div class="content-row">
+                            <div class="content-column"></div>
+                            <div class="content-column"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Help Section -->
+        <section class='help-section' style="background-image: url('./images/hrlp-bg.jpg')">
+            <div class='help-wrap'>
+                <div class='container-inner'>
+                    <div class="section-title section-title-white">
+                        <div class="section-title__main">
+                            How SUMO Can Help You
+                        </div>
+                        <div class="section-title__subtitle">
+                            Industries in healthcare need capacity, speed, security, functionality, and more to meet today’s standards in the medical field.
+                        </div>
+                    </div>
+                    <div class='help'>
+                        <div class="content">
+                            <div class="content-row">
+                                <div class="content-column">
+                                    <div class="content-block">
+                                        Industries in healthcare need capacity, speed, security, functionality, and more to meet today’s standards in the medical field.
+                                    </div>
+                                </div>
+                                <div class="content-column">
+                                    <div class="content-block">
+                                        <div class="content-block__icon">
+                                            <img src="images/joint.svg" alt="">
+                                        </div>
+                                        <div class="content-block__text">
+                                            Patients cannot be provided with the most accurate diagnosis due to a lack of information
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-column">
+                                    <div class="content-block">
+                                        <div class="content-block__icon">
+                                            <img src="images/dollar.svg" alt="">
+                                        </div>
+                                        <div class="content-block__text">
+                                            Patients and insurance companies could underestimate or overestimate the amount of coverage that is needed
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="content-column">
+                                    <div class="content-block">
+                                        <div class="content-block__icon">
+                                            <img src="images/health.svg" alt="">
+                                        </div>
+                                        <div class="content-block__text">
+                                            Healthcare professionals struggling to track patients’ post-op care and healing processes
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Info Section -->
+        <section class='info-section'>
+            <div class='info-wrap'>
+                <div class='container'>
+                    <div class="section-title section-title-white">
+                        <div class="section__label">
+                            How SUMO Works 
+                        </div>
+                        <div class="section-title__main">
+                            Consolidation of information
+                        </div>
+
+                        <div class="sectinon-title-btn-wrapper button-wrapper">
+                            <a href="#" class="button button-elements button-elements-white">
+                                <span class="title">Read more</span>
+                                <div class="icon-wrapper">
+                                    <span class="icon icon-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class='info'>
+
+                        <div class="lines-wrapper">
+                            <div class="custom-logo">
+                                <div class="custom-logo__title">
+                                    SUMO
+                                </div>
+                                <div class="custom-logo-info">
+                                    <div class="custom-logo__icon">
+                                        <img src="images/voltage.svg" alt="SUMO Voltage">
+                                    </div>
+                                    <div class="custom-logo__text">
+                                        Fast data processing
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+
+                        <div class="carousel-wrapper">
+                            <div class="device">
+                            <img class="carousel-bg" src="images/laptop.png" alt="Laptop">
+                                <div class="screen">
+                                    <div class="carousel js-carousel">
+                                        <div class="carousel-item">
+                                            <img src="images/c1.png" alt="Carousel Background Image">
+                                        </div>
+                                        <div class="carousel-item">2</div>
+                                        <div class="carousel-item">3</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                       
+                        <div class="steps-wrapper">
+                            <div class="steps-content">
+                                Operate efficiently using T3 data science platform saving time, increasing patient satisfaction and trust, and improving musculoskeletal care.
+                            </div>
+                            <div class="steps">
+                                <div class="steps-item">
+                                    <div class="steps-item__title">
+                                        Step 1
+                                    </div>
+                                    <div class="steps-item__text">
+                                        At the start of the service, SUMO staff can extract data and implement it into the platform as initial uploads.
+                                    </div>
+                                </div>
+                                <div class="steps-item">
+                                    <div class="steps-item__title">
+                                        Step 2
+                                    </div>
+                                    <div class="steps-item__text">
+                                        Create lightweight datasets, organise data, and adjust the platform to your specific needs.
+                                    </div>
+                                </div>
+                                <div class="steps-item">
+                                    <div class="steps-item__title">
+                                        Step 3
+                                    </div>
+                                    <div class="steps-item__text">
+                                        Track and analyse all data analytics to improve processes and decision-making.
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+
+                        <div class="content content-info">
+                            <div class="content-row conten-row-card">
+                                <div class="content-card ">
+                                    <div class="content-card-info">
+                                        <div class="content-card__label">
+                                            The SUMO Team
+                                        </div>
+                                        <div class="content-card__quote">
+                                            “Sumo offers technology that handles tremendous data throughput reliably & securely”
+                                        </div>
+                                        <div class="content-card-post">
+                                            Jim McAvoy <br>
+                                            CEO and founder SUMO
+                                        </div>
+                                        <div class="content-card-actions">
+                                            <a href="#" class="button button-elements button-elements-white">
+                                                <span class="title">Read more</span>
+                                                <div class="icon-wrapper">
+                                                    <span class="icon icon-arrow"></span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="content-card-media-wrapper js-modal-open">
+                                        <span class="icon icon-play content-card-media__play"></span>
+
+                                        <div class="content-card-media-info">
+                                            <div class="content-card-media__title">
+                                                Data drives effective population health
+                                            </div>
+                                            <div class="content-card-media__time">
+                                                1:30
+                                            </div>
+                                        </div>
+
+                                        <img src="images/avatar.jpg" alt="Avatar" class="content-card-media">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-row">
+                                <div class="content-column">
+                                    <div class="content-block">
+                                        Key factors of SUMO software operation
+                                    </div>
+                                </div>
+                                <div class="content-column">
+                                    <div class="content-block content-block-title-border">
+                                        <div class="content-block__title">
+                                            Cloud Software Program
+                                        </div>
+                                        <div class="content-block__text">
+                                            The technology for SUMO consists of a cloud-native stack to support the high capacity and high-velocity data that continues to grow. Cloud storage has proven to be better for big data companies and industries versus traditional desktop storage and systems.
+                                        </div>
+                                    </div>
+                                    <div class="content-block content-block-title-border">
+                                        <div class="content-block__title">
+                                            Cloud Software Program
+                                        </div>
+                                        <div class="content-block__text">
+                                            The technology for SUMO consists of a cloud-native stack to support the high capacity and high-velocity data that continues to grow. Cloud storage has proven to be better for big data companies and industries versus traditional desktop storage and systems.
+                                        </div>
+                                    </div>
+                                    <div class="content-block content-block-title-border">
+                                        <div class="content-block__title">
+                                            Cloud Software Program
+                                        </div>
+                                        <div class="content-block__text">
+                                            The technology for SUMO consists of a cloud-native stack to support the high capacity and high-velocity data that continues to grow. Cloud storage has proven to be better for big data companies and industries versus traditional desktop storage and systems.
+                                        </div>
+                                    </div>
+                                    <div class="content-block content-block-title-border">
+                                        <div class="content-block__title">
+                                            Cloud Software Program
+                                        </div>
+                                        <div class="content-block__text">
+                                            The technology for SUMO consists of a cloud-native stack to support the high capacity and high-velocity data that continues to grow. Cloud storage has proven to be better for big data companies and industries versus traditional desktop storage and systems.
+                                        </div>
+                                    </div>
+                                    <div class="content-block content-block-title-border">
+                                        <div class="content-block__title">
+                                            Cloud Software Program
+                                        </div>
+                                        <div class="content-block__text">
+                                            The technology for SUMO consists of a cloud-native stack to support the high capacity and high-velocity data that continues to grow. Cloud storage has proven to be better for big data companies and industries versus traditional desktop storage and systems.
+                                        </div>
+                                    </div>
+                                    <div class="content-block content-block-title-border">
+                                        <div class="content-block__title">
+                                            Cloud Software Program
+                                        </div>
+                                        <div class="content-block__text">
+                                            The technology for SUMO consists of a cloud-native stack to support the high capacity and high-velocity data that continues to grow. Cloud storage has proven to be better for big data companies and industries versus traditional desktop storage and systems.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Subscribe -->
+        <section class='subscribe-section'>
+
+            <div class="sphere-wrapper">
+                <div class="sphere"></div>
+                <div class="sphere"></div>
+            </div>
+
+            <div class='subscribe-wrap'>
+                <div class='container'>
+
+                    <div class="section-title section-title-large">
+                        <div class="section-title__main">
+                            Stay informed
+                        </div>
+                        <div class="section-title__subtitle">
+                            Join our growing community of healthcare leaders and stay informed with the latest news and updates from SUMO.
+                        </div>
+                    </div>
+
+                    <div class='subscribe'>
+                        <form class="form" action="#">
+                            <fieldset class="form-content">
+                                <div class="input-wrapper">
+                                    <div class="input-wrapper__title">Hi! My name is</div>
+                                    <input class="input-wrapper__field" type="text" />
+                                </div>
+                                <div class="input-wrapper">
+                                    <div class="input-wrapper__title">and I work company</div>
+                                    <input class="input-wrapper__field" type="text" />
+                                </div>
+                                <div class="input-wrapper">
+                                    <div class="input-wrapper__title">I'm interested in</div>
+                                    <input class="input-wrapper__field" type="text" />
+                                </div>
+                                <div class="input-wrapper">
+                                    <div class="input-wrapper__title">You can reach me at</div>
+                                    <input class="input-wrapper__field" type="text" />
+                                </div>
+                            </fieldset>
+                            
+
+                            <div class="form-actions">
+                                <label class="checkbox-wrapper">
+                                    <div class="checkbox__label">
+                                        I agree with the Privacy Policy
+                                    </div>
+                                    <input type="checkbox" checked="checked">
+                                    <span class="checkmark"></span>
+                                </label>
+        
+                                <button class="button button-large" disabled>
+                                    <div class="title">
+                                        SEND inquiry
+                                    </div>
+                                    <div class="icon"></div>
+                                </button>
+                            </div>                       
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section class='news-section'>
+            <div class='news-wrap'>
+                <div class='container'>
+                    <div class="section-title section-title-dark">
+                        <div class="section-title__main">
+                            News & Cases
+                        </div>
+                        <div class="section-title__subtitle">
+                            Our recent client Cases and News
+                        </div>
+                        <div class="section-title-button-wrapper">
+                            <a href="#" class="button button-elements button-elements-dark">
+                                <span class="title">Read more</span>
+                                <div class="icon-wrapper">
+                                    <span class="icon icon-arrow"></span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class='news slider-wrapper'>
+                        <div class="slider js-slider">
+                            <div class="slider-item">
+                                <div class="card">
+                                    <div class="card__img-wrapper">
+                                        <div class="card__tag">
+                                            Cases
+                                        </div>
+                                        <img src="images/card-img.jpg" alt="Card Title" class="card__img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-info__title">
+                                            How we built Relay
+                                        </div>
+                                        <div class="card-info__date">
+                                            08 March, 2022 
+                                        </div>
+                                    </div>
+                                    <div class="card-button-wrapper">
+                                        <a class="button button-color-white button-border-dark button-fill">
+                                            <span class="title">Read more</span>
+                                            <div class="icon-wrapper">
+                                                <span class="icon icon-arrow"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="card">
+                                    <div class="card__img-wrapper">
+                                        <div class="card__tag">
+                                            Cases
+                                        </div>
+                                        <img src="images/card-img.jpg" alt="Card Title" class="card__img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-info__title">
+                                            How we built Relay
+                                        </div>
+                                        <div class="card-info__date">
+                                            08 March, 2022 
+                                        </div>
+                                    </div>
+                                    <div class="card-button-wrapper">
+                                        <a class="button button-color-white button-border-dark button-fill">
+                                            <span class="title">Read more</span>
+                                            <div class="icon-wrapper">
+                                                <span class="icon icon-arrow"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="card">
+                                    <div class="card__img-wrapper">
+                                        <div class="card__tag">
+                                            Cases
+                                        </div>
+                                        <img src="images/card-img.jpg" alt="Card Title" class="card__img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-info__title">
+                                            How we built Relay
+                                        </div>
+                                        <div class="card-info__date">
+                                            08 March, 2022 
+                                        </div>
+                                    </div>
+                                    <div class="card-button-wrapper">
+                                        <a class="button button-color-white button-border-dark button-fill">
+                                            <span class="title">Read more</span>
+                                            <div class="icon-wrapper">
+                                                <span class="icon icon-arrow"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="card">
+                                    <div class="card__img-wrapper">
+                                        <div class="card__tag">
+                                            Cases
+                                        </div>
+                                        <img src="images/card-img.jpg" alt="Card Title" class="card__img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-info__title">
+                                            How we built Relay
+                                        </div>
+                                        <div class="card-info__date">
+                                            08 March, 2022 
+                                        </div>
+                                    </div>
+                                    <div class="card-button-wrapper">
+                                        <a class="button button-color-white button-border-dark button-fill">
+                                            <span class="title">Read more</span>
+                                            <div class="icon-wrapper">
+                                                <span class="icon icon-arrow"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="card">
+                                    <div class="card__img-wrapper">
+                                        <div class="card__tag">
+                                            Cases
+                                        </div>
+                                        <img src="images/card-img.jpg" alt="Card Title" class="card__img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-info__title">
+                                            How we built Relay
+                                        </div>
+                                        <div class="card-info__date">
+                                            08 March, 2022 
+                                        </div>
+                                    </div>
+                                    <div class="card-button-wrapper">
+                                        <a class="button button-color-white button-border-dark button-fill">
+                                            <span class="title">Read more</span>
+                                            <div class="icon-wrapper">
+                                                <span class="icon icon-arrow"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="card">
+                                    <div class="card__img-wrapper">
+                                        <div class="card__tag">
+                                            Cases
+                                        </div>
+                                        <img src="images/card-img.jpg" alt="Card Title" class="card__img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-info__title">
+                                            How we built Relay
+                                        </div>
+                                        <div class="card-info__date">
+                                            08 March, 2022 
+                                        </div>
+                                    </div>
+                                    <div class="card-button-wrapper">
+                                        <a class="button button-color-white button-border-dark button-fill">
+                                            <span class="title">Read more</span>
+                                            <div class="icon-wrapper">
+                                                <span class="icon icon-arrow"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="card">
+                                    <div class="card__img-wrapper">
+                                        <div class="card__tag">
+                                            Cases
+                                        </div>
+                                        <img src="images/card-img.jpg" alt="Card Title" class="card__img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-info__title">
+                                            How we built Relay
+                                        </div>
+                                        <div class="card-info__date">
+                                            08 March, 2022 
+                                        </div>
+                                    </div>
+                                    <div class="card-button-wrapper">
+                                        <a class="button button-color-white button-border-dark button-fill">
+                                            <span class="title">Read more</span>
+                                            <div class="icon-wrapper">
+                                                <span class="icon icon-arrow"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-item">
+                                <div class="card">
+                                    <div class="card__img-wrapper">
+                                        <div class="card__tag">
+                                            Cases
+                                        </div>
+                                        <img src="images/card-img.jpg" alt="Card Title" class="card__img">
+                                    </div>
+                                    <div class="card-info">
+                                        <div class="card-info__title">
+                                            How we built Relay
+                                        </div>
+                                        <div class="card-info__date">
+                                            08 March, 2022 
+                                        </div>
+                                    </div>
+                                    <div class="card-button-wrapper">
+                                        <a class="button button-color-white button-border-dark button-fill">
+                                            <span class="title">Read more</span>
+                                            <div class="icon-wrapper">
+                                                <span class="icon icon-arrow"></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sphere-wrapper sphere-wrapper-bottom">
+                <div class="sphere sphere-bottom"></div>
+                <div class="sphere sphere-bottom"></div>
+            </div>
+        </section>
+       
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-row">
+                    <div class="footer-column">
+                        <a href="" class="footer__logo">
+                            <img src="images/logo-light.svg" alt="Sumo">
+                        </a>
+                        <nav class="social">
+                            <ul>
+                                <li>
+                                    <a href="#" aria-label="Facebook">
+                                        <span class="icon-facebook"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="Instagram">
+                                        <span class="icon-instagram"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" aria-label="LinkedIn">
+                                        <span class="icon-linkedin"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column__title">
+                            Discover
+                        </div>
+                        <div class="footer-list footer-list-column">
+                            <ul>
+                                <li><a href="#">What is SUMO</a></li>
+                                <li><a href="#">How it works</a></li>
+                                <li><a href="#">Industries</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <div class="footer-column__title">Info</div>
+                        <div class="footer-list footer-list-column">
+                            <ul>
+                                <li><a href="#">About US</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-column">
+                        <button class="button button-icon button-icon-white scroll-top js-scroll-top">
+                            <span class="icon icon-arrow-white"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-row">
+                    <div class="footer-column">
+                        <div class="footer__copyright">© 2022 SUMO. All rights reserved.</div>
+                    </div>
+
+                    <div class="footer-column">
+                        <div class="footer-list footer-list-row">
+                            <ul>
+                                <li>
+                                    <a href="#" class="footer__link">Term of use</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="footer__link">Privacy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer-column">
+                        <a class="footer__link" href="">
+                            <span>Made By</span>
+                            <span>BRAB</span>
+                        </a>
+                    </div>                  
+                  
+                </div>
+                
+            </div>
+        </div>
+        
+    </footer>
+
+    <div class="modal">
+        <div class="comdal-content"></div>
+    </div>
+
+    <script src="js/main.min.js"></script>
+</body>
+</html>
