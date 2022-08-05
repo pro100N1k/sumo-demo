@@ -40,10 +40,10 @@
                 <label for="site-search">Search SUMO</label>
                 <input type="search" id="site-search" name="q" placeholder="Write what you are looking for...">
         
-                <button class="button button-color-white button-large button-fill">
+                <button class="button button-color-white button-fill button-search button-search-white">
                     <span class="title">Find</span>
                     <div class="icon-wrapper">
-                        <span class="icon icon-arrow-white"></span>
+                        <span class="icon icon-arrow"></span>
                     </div>
                 </button>
             </div>
@@ -91,61 +91,42 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
-            </div>
 
-            <nav class="social social-border">
-                <ul>
-                    <li>
-                        <a href="#" aria-label="Facebook">
-                            <span class="icon-facebook"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" aria-label="Instagram">
-                            <span class="icon-instagram"></span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" aria-label="LinkedIn">
-                            <span class="icon-linkedin"></span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-                   
-           
+                <nav class="social social-border menu-social">
+                    <ul>
+                        <li>
+                            <a href="#" aria-label="Facebook">
+                                <span class="icon-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Instagram">
+                                <span class="icon-instagram"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="LinkedIn">
+                                <span class="icon-linkedin"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                       
+            </div>
         </div>
-        
     </div>
 
-    <!--
-    <div class="hero">
-        <div class="sphere-wrapper">
-            <div class="sphere"></div>
-            <div class="sphere"></div>
-        </div>
-     
-
-        <div class="container">
-            <h1 class="hero__title">A healthcare innovator</h1>
-            <div class="hero__subtitle">
-                Data science and technology
-            </div>
-            <p class="hero__text">
-                SUMO is an application software designed to fill in the gaps in patient care and operations by saving time and influencing better decisions for each unique patient. 
-            </p>
-        </div>        
-    </div>
--->
+    
+  
     
     <main class="main">
 
         <!-- Home Section -->
-        <section class='home-section' style="background-image: url(images/home-bg.jpg);">
+        <section class='home-section js-section-fullpage' style="background-image: url(images/home-bg.jpg);">
             <div class='home-wrap'>
                 <div class='container-inner'>
                     <div class='home'>
-                        <div class="home-modal">
+                        <a data-fancybox data-width="640" data-height="360" href="https://www.youtube.com/watch?v=BYl7v0YsX9g" class="home-modal">
                             <div class="home-modal__title">
                                 ABOUT SUMO Labs 
                             </div>
@@ -157,10 +138,17 @@
                                     1:30
                                 </div>
                             </div>
+                        </a>
+
+                        <div class="home__title">
+                            What is SUMO
                         </div>
+
                         <div class="content">
+                            
                             <div class="content-row">
-                                <div class="content-column">
+                                <div class="content-column home-column-title">
+                                    
                                     <div class="content-block">
                                         <div class="content-block__text">
                                             Big data analytics for healthcare industry
@@ -342,7 +330,7 @@
         <section class='info-section'>
             <div class='info-wrap'>
                 <div class='container'>
-                    <div class="section-title section-title-white">
+                    <div class="section-title section-title-white section-title-large">
                         <div class="section__label">
                             How SUMO Works 
                         </div>
@@ -435,7 +423,7 @@
 
                         <div class="content content-info">
                             <div class="content-row conten-row-card">
-                                <div class="content-card ">
+                                <div class="content-card">
                                     <div class="content-card-info">
                                         <div class="content-card__label">
                                             The SUMO Team
@@ -457,7 +445,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="content-card-media-wrapper js-modal-open">
+                                    <a data-fancybox data-width="640" data-height="360" href="https://www.youtube.com/watch?v=BYl7v0YsX9g" class="fancybox content-card-media-wrapper js-modal-open">
                                         <span class="icon icon-play content-card-media__play"></span>
 
                                         <div class="content-card-media-info">
@@ -470,10 +458,10 @@
                                         </div>
 
                                         <img src="images/avatar.jpg" alt="Avatar" class="content-card-media">
-                                    </div>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="content-row">
+                            <div class="content-row content-row-mobile-nowrap">
                                 <div class="content-column">
                                     <div class="content-block">
                                         Key factors of SUMO software operation
@@ -562,19 +550,19 @@
                             <fieldset class="form-content">
                                 <div class="input-wrapper">
                                     <div class="input-wrapper__title">Hi! My name is</div>
-                                    <input class="input-wrapper__field" type="text" />
+                                    <input class="input-wrapper__field" type="text" placeholder="Enter your name & last name*" />
                                 </div>
                                 <div class="input-wrapper">
                                     <div class="input-wrapper__title">and I work company</div>
-                                    <input class="input-wrapper__field" type="text" />
+                                    <input class="input-wrapper__field" type="text" placeholder="Company name type here*"/>
                                 </div>
                                 <div class="input-wrapper">
                                     <div class="input-wrapper__title">I'm interested in</div>
-                                    <input class="input-wrapper__field" type="text" />
+                                    <input class="input-wrapper__field" type="text" placeholder="Select*"/>
                                 </div>
                                 <div class="input-wrapper">
                                     <div class="input-wrapper__title">You can reach me at</div>
-                                    <input class="input-wrapper__field" type="text" />
+                                    <input class="input-wrapper__field" type="email" placeholder="Enter your email"/>
                                 </div>
                             </fieldset>
                             
@@ -588,11 +576,13 @@
                                     <span class="checkmark"></span>
                                 </label>
         
-                                <button class="button button-large" disabled>
+                                <button class="button button-color-dark button-fill" disabled>
                                     <div class="title">
                                         SEND inquiry
                                     </div>
-                                    <div class="icon"></div>
+                                    <div class="icon-wrapper">
+                                        <span class="icon icon icon-arrow"></span>
+                                    </div>
                                 </button>
                             </div>                       
 
@@ -849,11 +839,11 @@
         <div class="container">
             <div class="footer-top">
                 <div class="footer-row">
-                    <div class="footer-column">
+                    <div class="footer-column footer-column-logo">
                         <a href="" class="footer__logo">
                             <img src="images/logo-light.svg" alt="Sumo">
                         </a>
-                        <nav class="social">
+                        <nav class="social footer-social-desktop">
                             <ul>
                                 <li>
                                     <a href="#" aria-label="Facebook">
@@ -873,7 +863,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="footer-column">
+                    <div class="footer-column footer-column-menu">
                         <div class="footer-column__title">
                             Discover
                         </div>
@@ -885,7 +875,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="footer-column">
+                    <div class="footer-column footer-column-menu">
                         <div class="footer-column__title">Info</div>
                         <div class="footer-list footer-list-column">
                             <ul>
@@ -895,20 +885,41 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="footer-column">
+                    <div class="footer-column footer-column-scroll">
                         <button class="button button-icon button-icon-white scroll-top js-scroll-top">
                             <span class="icon icon-arrow-white"></span>
                         </button>
                     </div>
                 </div>
             </div>
+            <div class="footer-social-mobile">
+                <nav class="social">
+                    <ul>
+                        <li>
+                            <a href="#" aria-label="Facebook">
+                                <span class="icon-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Instagram">
+                                <span class="icon-instagram"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="LinkedIn">
+                                <span class="icon-linkedin"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
             <div class="footer-bottom">
                 <div class="footer-row">
-                    <div class="footer-column">
+                    <div class="footer-column footer-column-copyright">
                         <div class="footer__copyright">© 2022 SUMO. All rights reserved.</div>
                     </div>
 
-                    <div class="footer-column">
+                    <div class="footer-column footer-column-submenu">
                         <div class="footer-list footer-list-row">
                             <ul>
                                 <li>
@@ -921,10 +932,10 @@
                         </div>
                     </div>
 
-                    <div class="footer-column">
+                    <div class="footer-column footer-column-company">
                         <a class="footer__link" href="">
                             <span>Made By</span>
-                            <span>BRAB</span>
+                            <img src="images/brab.svg" alt="BRAB">
                         </a>
                     </div>                  
                   
@@ -935,9 +946,23 @@
         
     </footer>
 
-    <div class="modal">
-        <div class="comdal-content"></div>
+
+
+    <div id="modal" class="modal" style="display: none;">
+        <div class="comdal-content">
+            <h2>Контент из скрытого div</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim
+            vulputate eros. 
+        </p>
+        <p>
+            Donec hendrerit efficitur ex vitae euismod. Maecenas ut leo vitae ipsum dictum 
+            cursus vel vitae nulla.
+        </p>
+        </div>
     </div>
+
+
 
     <script src="js/main.min.js"></script>
 </body>
